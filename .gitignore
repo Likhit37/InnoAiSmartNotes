@@ -3,11 +3,17 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
+*.sqlite3
+
+# Virtual environment
 .venv/
 venv/
 
 # Environment variables
 .env
+
+# Docker
+*.log
 
 # OS
 .DS_Store
@@ -16,3 +22,13 @@ Thumbs.db
 # IDE
 .vscode/
 .idea/
+
+# Pytest
+.pytest_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Redis dump
+dump.rdb
